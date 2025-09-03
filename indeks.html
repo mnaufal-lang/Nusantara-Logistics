@@ -1,53 +1,51 @@
-**HTML (index.html):**
-
-```html
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Logistics Company</title>
+    <title>Produk Kopi Hebat</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Navbar -->
     <header>
         <nav>
+            <h1>Produk Kopi Hebat</h1>
             <ul>
-                <li><a href="#hero">Home</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#features">Fitur</a></li>
+                <li><a href="#contact">Kontak</a></li>
             </ul>
         </nav>
     </header>
 
-    <section id="hero" class="hero">
-        <h1>Welcome to Our Logistics Company</h1>
-        <p>Reliable and Efficient Delivery Solutions</p>
+    <!-- Hero Section -->
+    <section id="hero">
+        <h2>Selamat datang di Kopi Hebat</h2>
+        <p id="tagline">Tagline akan di-generate oleh AI</p>
+        <button onclick="generateTagline()">Buat Tagline AI</button>
     </section>
 
-    <section id="services">
-        <h2>Our Services</h2>
-        <div class="service">
-            <img src="service1.png" alt="Service 1">
-            <h3>Air Freight</h3>
-            <p>Fast and secure air cargo services for your time-sensitive shipments.</p>
-        </div>
-        <div class="service">
-            <img src="service2.png" alt="Service 2">
-            <h3>Ocean Freight</h3>
-            <p>Cost-effective ocean shipping for bulk cargo.</p>
-        </div>
-        <div class="service">
-            <img src="service3.png" alt="Service 3">
-            <h3>Customs Brokerage</h3>
-            <p>Expert customs clearance and documentation services.</p>
-        </div>
+    <!-- Features -->
+    <section id="features">
+        <h2>Fitur Produk</h2>
+        <ul>
+            <li>Rasa premium</li>
+            <li>Pengiriman cepat</li>
+            <li>Harga terjangkau</li>
+        </ul>
     </section>
 
-    <section id="about">
-        <h2>About Us</h2>
-        <p>We are a leading logistics company dedicated to providing seamless and efficient delivery solutions worldwide.</p>
-    </section>
-
+    <!-- Contact -->
     <section id="contact">
+        <h2>Hubungi Kami</h2>
+        <p>Email: info@kopihebat.com</p>
+    </section>
+
+    <footer>
+        <p>© 2025 Kopi Hebat</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
